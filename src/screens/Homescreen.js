@@ -166,7 +166,7 @@ class HomeScreen extends Component {
               <FlatList
                 data={this.state.movies.filter(movie =>movie.category==='Webseries')}
                 renderItem={this.renderMovieItem}
-                keyExtractor={(item) => item.id}
+                keyExtractor={(item) =>  item.id}
                 horizontal
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={{ paddingHorizontal: 10 }}
