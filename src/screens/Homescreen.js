@@ -89,7 +89,7 @@ class HomeScreen extends Component {
         <View style={styles.bg}>
           <View style={styles.sectionContainer}>
             <View style={styles.sectionHeader}>
-              <Text style={styles.sectionTitle}>Movies</Text>
+              <Text style={styles.sectionTitle}>MOVIES</Text>
               <TouchableOpacity>
                 {/* <Text style={styles.seeAllText}>See all</Text> */}
               </TouchableOpacity>
@@ -248,7 +248,7 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     color: 'white',
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: 'bold',
   },
 });
