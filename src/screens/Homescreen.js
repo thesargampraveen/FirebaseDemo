@@ -127,7 +127,7 @@ class HomeScreen extends Component {
             
             <Text style={styles.actortext}>MOST POPULAR</Text>
             <ScrollView horizontal  >
-              <TouchableOpacity  onPress={() => this.props.navigation.navigate('actor')}>
+              {/* <TouchableOpacity  onPress={() => this.props.navigation.navigate('actor')}> */}
               <FlatList
                 data={this.state.movies.filter(movie =>movie.category==='popular')}
                 renderItem={this.renderMovieItem}
@@ -136,7 +136,8 @@ class HomeScreen extends Component {
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={{ paddingHorizontal: 10 }}
               />
-                </TouchableOpacity>
+              
+                {/* </TouchableOpacity> */}
                   </ScrollView>
                   
                
